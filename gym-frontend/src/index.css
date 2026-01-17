@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --primary: 221 83% 53%;
+  --primary-foreground: 210 40% 98%;
+  --border: 214 32% 91%;
+  --muted-foreground: 215 16% 47%;
+}
+
+.bg-background { background-color: hsl(var(--background)); }
+.text-muted-foreground { color: hsl(var(--muted-foreground)); }
+.border-border { border-color: hsl(var(--border)); }
+.bg-primary { background-color: hsl(var(--primary)); }
+.text-primary-foreground { color: hsl(var(--primary-foreground)); }
